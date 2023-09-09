@@ -1,0 +1,12 @@
+.home{
+    background-color: #1abc9c;
+    /* height: 100vh; */
+}
+img{
+    padding: 100px 0 0px 0px;
+    width: 250px !important;
+}
+.line{
+    height: 4px;
+    width: 80px;
+}

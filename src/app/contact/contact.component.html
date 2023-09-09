@@ -1,0 +1,27 @@
+<div class="contact d-flex justify-content-center">
+   <div>
+      <h2 class="text-uppercase fs-1 fw-bolder mb-3 text-center">conatct section</h2>
+       <div class="d-flex justify-content-center align-items-center">
+         <div class="line bg-black  me-3"></div>
+         <i class="fa-solid fa-star"></i>
+         <div class="line bg-black  ms-3"></div>
+       </div>
+ 
+    </div>
+</div>
+
+<form class="w-50 p-3 mx-auto mt-5 py-5" action="">
+    <label class="position-relative top-0 " [style]="!isEmpty[0]? 'transform: translateY(0)' : 'transform: translateY(40)'" for="userName">userName : </label>
+    <input (keyup)="showLable($event)" id="userName" class="form-control border-0 border-bottom py-3 position-relative w-100" placeholder="userName" name="userName" type="text">
+
+    <label class="position-relative top-0 "  [style]="!isEmpty[1]? 'transform: translateY(0)' : 'transform: translateY(40)'" for="userAge">userAge : </label>
+    <input (keyup)="showLable($event)" id="userAge" class="form-control border-0 border-bottom py-3 position-relative w-100" placeholder="userAge" name="userAge" type="text">
+
+    <label class="position-relative top-0 " [style]="!isEmpty[2]? 'transform: translateY(0)' : 'transform: translateY(40)'" for="userEmail">userEmail : </label>
+    <input (keyup)="showLable($event)" id="userEmail" class="form-control border-0 border-bottom py-3 position-relative w-100" placeholder="userEmail" name="userEmail" type="text">
+
+    <label class="position-relative top-0 " [style]="!isEmpty[3]? 'transform: translateY(0)' : 'transform: translateY(40)'" for="userPassword">userPassword : </label>
+    <input (keyup)="showLable($event)" id="userPassword" class="form-control border-0 border-bottom py-3 position-relative w-100" placeholder="userPassword" name="userPassword" type="text">
+
+    <button class="btn btn-color mt-4 text-white">Send Massage</button>
+</form>

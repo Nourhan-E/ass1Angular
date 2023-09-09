@@ -1,0 +1,21 @@
+.contact{
+    padding-top: 150px;
+}
+
+.line{
+    height: 4px;
+    width: 80px;
+}
+.btn-color{
+    background-color: #1abc9c;
+}
+label{
+    color: #1abc9c;
+  margin-bottom: 7px;
+  opacity: 0 !important;
+  /* top: 0 !important; */
+  transition: .6s top;
+}
+input:hover label{
+    top: 40px !important;
+}
